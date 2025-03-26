@@ -1,7 +1,7 @@
 const express = require('express');
 const router = require('./routes/rutas');
 const app = express();
-const port = 3000; 
+const port = 4000; 
 
 app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
 app.use('/js', express.static(__dirname + '/node_modules/bootstrap/dist/js'));
